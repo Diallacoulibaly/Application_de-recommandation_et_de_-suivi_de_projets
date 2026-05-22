@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="recommandation_suivie_projets:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/recommandation_suivie_projets_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="recommandation_suivie_projets/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="recommandation_suivie_projets" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -44,8 +44,8 @@ public class Etape {
     public void setDescription(String description){
         this.description = description;
     }
-    public StatutEtape getEtapeStatut(){
-        return etapeStatut;
+    public StatutEtape getStatutEtape(){
+        return StatutEtape;
     }
     public void  setEtapeStatut(StatutEtape etapeStatut){
         this.etapeStatut = etapeStatut;

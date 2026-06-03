@@ -15,6 +15,19 @@ public class ConnectBD {
 
 }
 
+    private ConnectBD() {}
 
+    public static Connection getConnection() throws SQLException {
+        if (connection == null || connection.isClosed()) {
+            try {
+                connection = DriverManager.getConnection(URL, USER, PASSWORD);
+            } catch (SQLException e) {
+                System.err.println("Erreur de connexion à la bdd : " + e.getMessage());
+                throw e;
+            }
+        }
+        return connection;
+    }
+}
 
 
